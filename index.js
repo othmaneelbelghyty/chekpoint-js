@@ -36,3 +36,9 @@ function redundant(str) {
     return str;
   };
 }
+//Converting Objects to Arrays
+function toArray(obj) {
+  let arr = [];
+  Object.keys(obj).forEach((key) => arr.push([key, obj[key]]));
+  return arr;
+}
