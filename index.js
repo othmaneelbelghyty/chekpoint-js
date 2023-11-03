@@ -50,3 +50,11 @@ function possibleBonus(a, b) {
     return false;
   }
 }
+//Triangular Number Sequence
+function triangle(n) {
+  var count = 0;
+  for (var num = 0; num <= n; num++) {
+    count = count + num;
+  }
+  return count;
+}
