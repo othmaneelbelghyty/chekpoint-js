@@ -42,3 +42,11 @@ function toArray(obj) {
   Object.keys(obj).forEach((key) => arr.push([key, obj[key]]));
   return arr;
 }
+//Tile Teamwork Tactics
+function possibleBonus(a, b) {
+  if (a < b && b - 6 <= a) {
+    return true;
+  } else {
+    return false;
+  }
+}
