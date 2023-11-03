@@ -30,3 +30,9 @@ function getGrade(s1, s2, s3) {
   }
 }
 console.log("=============>");
+//A Redundant Function
+function redundant(str) {
+  return function () {
+    return str;
+  };
+}
